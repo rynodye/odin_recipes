@@ -9,6 +9,22 @@ body {
     height: 100vh;
 }
 
+div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+p, ul, ol {
+    text-align: left;
+}
+
+ul.main-list {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 h1 {
     font-weight: 800;
     color: #850000;
@@ -21,20 +37,6 @@ h1 {
     display: inline;
 }
 
-p, ul, ol, img {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-p, ul, ol {
-    text-align: left;
-}
-
-ul.main-list {
-    font-size: 20px;
-    font-weight: 500;
-}
-
 h3 {
     font-weight: 700;
     color: #002f85;
@@ -44,6 +46,18 @@ h3 {
     padding: 15px;
     padding-left: 25px;
     padding-right: 25px;
+    display: inline;
+}
+
+h4 {
+    font-weight: 600;
+    color: #850000;
+    border: 4px solid #004600;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: inline;
 }
 
